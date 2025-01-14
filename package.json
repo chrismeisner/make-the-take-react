@@ -4,13 +4,14 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "airtable": "^0.12.2",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "airtable": "^0.12.2",
     "cra-template": "1.2.0",
     "framer-motion": "^11.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "uuid": "^11.0.5",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
