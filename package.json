@@ -2,6 +2,7 @@
   "name": "make-the-take-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "airtable": "^0.12.2",
     "cra-template": "1.2.0",
@@ -9,7 +10,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "serve": "^14.2.4",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -19,7 +19,6 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
-  "homepage": "/",
   "eslintConfig": {
     "extends": [
       "react-app",
