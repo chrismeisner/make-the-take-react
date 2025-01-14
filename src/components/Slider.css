@@ -1,0 +1,59 @@
+.custom-slider {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none;
+  width: 100%; /* Full width */
+  height: 8px; /* Track height */
+  background: linear-gradient(
+	to right,
+	blue 0%, /* Cold (0%) */
+	white 50%, /* Neutral (50%) */
+	red 100% /* Hot (100%) */
+  ); /* Gradient track */
+  outline: none; /* Remove outline when focused */
+  border-radius: 4px; /* Rounded track corners */
+  transition: background 0.3s ease-in-out; /* Smooth interaction */
+}
+
+.custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none;
+  width: 20px; /* Thumb size */
+  height: 20px; /* Thumb size */
+  background: #007bff; /* Fixed blue color for thumb */
+  border-radius: 50%; /* Circular thumb */
+  cursor: pointer; /* Pointer cursor for interaction */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  transition: transform 0.2s ease; /* Smooth thumb interaction */
+}
+
+.custom-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2); /* Enlarge thumb slightly on hover */
+}
+
+.custom-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff; /* Fixed blue color for thumb */
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.custom-slider::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+
+.custom-slider::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff; /* Fixed blue color for thumb */
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.custom-slider::-ms-thumb:hover {
+  transform: scale(1.2);
+}
