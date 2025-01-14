@@ -35,7 +35,7 @@ const Slider = ({ value, onChange }) => {
 	} else if (newValue <= 75) {
 	  chosenEmoji = '🔥';
 	} else {
-	  chosenEmoji = '☄️';
+	  chosenEmoji = '🥵';
 	}
 
 	// 2) Compute how big the emoji should be:
