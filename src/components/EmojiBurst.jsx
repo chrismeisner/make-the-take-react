@@ -39,7 +39,7 @@ const EmojiBurst = ({ bursts }) => {
 			left: burst.x,
 			bottom: 0, // start near the slider track
 			transform: 'translateX(-50%)',
-			fontSize: '1.5rem',
+			fontSize: '3rem',
 			pointerEvents: 'none',
 			userSelect: 'none',
 		  }}
